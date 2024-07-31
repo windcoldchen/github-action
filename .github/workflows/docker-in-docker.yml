@@ -25,4 +25,3 @@ jobs:
       - name: Test Docker
         run: |
           docker version
-          docker info
