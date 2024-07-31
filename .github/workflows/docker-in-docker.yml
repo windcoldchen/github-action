@@ -25,3 +25,4 @@ jobs:
       - name: Test Docker
         run: |
           docker version
+          docker image ls
