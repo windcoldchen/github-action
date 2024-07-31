@@ -13,9 +13,9 @@ jobs:
           - /var/run/docker.sock:/var/run/docker.sock:ro
     container:
       image: docker:dind
-      options: --privileged --shm-size=2g
-      volumes:
-        - /var/run/docker.sock:/var/run/docker.sock:ro
+#      options: --privileged --shm-size=2g
+#      volumes:
+#        - /var/run/docker.sock:/var/run/docker.sock:ro
     steps:
 #      - name: Checkout
 #        uses: actions/checkout@v4
